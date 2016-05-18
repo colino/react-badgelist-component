@@ -1,0 +1,51 @@
+{
+  "name": "BadgeList.js",
+  "version": "0.0.1",
+  "description": "Simple bootstrap badge list component",
+  "main": "badgeList.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify -t babelify app.js -o badgeList.js",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colino/react-badgelist-component.git"
+  },
+  "keywords": [
+    "facebook",
+    "react",
+    "checkbox",
+    "group",
+    "dom",
+    "input",
+    "react-component",
+    "bootstrap"
+  ],
+  "author": {
+    "name": "Nicola Logrillo",
+    "email": "ntraxdesign@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/colino/react-badgelist-component.git/issues"
+  },
+  "homepage": "https://github.com/colino/react-badgelist-component.git",
+  "peerDependencies": {
+    "react": ">= 0.13.0"
+  },
+  "devDependencies": {
+    "browserify": "^11.1.0",
+    "babelify": "^6.3.0",
+    "babel": "^5.6.7",
+    "react": "^0.13.3",
+    "react-bootstrap": "^0.29.4",
+    "underscore": "^1.8.3"
+  },
+  "maintainers": [
+    {
+      "name": "Nicola Logrillo",
+      "email": "ntraxdesign@gmail.com"
+    }
+  ]
+}
